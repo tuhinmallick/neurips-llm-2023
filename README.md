@@ -7,7 +7,7 @@ This is my repo containing submissions for both A100 track and 4090 track.
 - `4090`folder: Contain submissions for 4090 track
 - `A100`folder: Contain submissions for A100 track
 - `finetune-code`: Contain Dockerfile to finetuning automatically
-- `notebooks`: contain jupyter notebooks to train and finetune
+- `notebooks`: Contain jupyter notebooks to get dataset
 
 # Dataset
 Every dataset is available [here](https://huggingface.co/quyanh).
