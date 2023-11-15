@@ -11,4 +11,4 @@ WORKDIR /workspace
 COPY utils.py ./
 COPY train.py ./
 
-CMD [ "python", "train.py"]
+CMD [ "python", "train.py",">","log"]
