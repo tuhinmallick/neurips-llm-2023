@@ -33,7 +33,7 @@ model = AutoModelForCausalLM.from_pretrained(
     torch_dtype=torch.float16,
     device_map="cuda"
 )
-model = PeftModel.from_pretrained(model, "quyanh/mistral-7b-neurips-v2")
+model = PeftModel.from_pretrained(model, os.environ["HUGGINGFACE_REPO"])
 
 model.eval()
 
