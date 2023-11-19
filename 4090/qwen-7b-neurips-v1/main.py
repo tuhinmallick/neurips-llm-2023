@@ -35,7 +35,7 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map="cuda",
     trust_remote_code=True
 )
-model = PeftModel.from_pretrained(model, "quyanh/qwen-7b-neurips-v1")
+model = PeftModel.from_pretrained(model, os.environ["HUGGINGFACE_REPO"])
 model.eval()
 
 tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
