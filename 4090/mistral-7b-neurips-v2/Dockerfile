@@ -10,7 +10,7 @@ COPY ./fast_api_requirements.txt fast_api_requirements.txt
 RUN pip install --no-cache-dir --upgrade -r fast_api_requirements.txt
 
 ENV HUGGINGFACE_TOKEN="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"
-ENV HUGGINGFACE_REPO="quyanh/mistral-7b-neurips-4090"
+ENV HUGGINGFACE_REPO="llm-efficiency-challenge/QuyAnh2005-4090-mistral-7b-neurips-v2"
 
 # Copy over single file server
 COPY ./main.py main.py
