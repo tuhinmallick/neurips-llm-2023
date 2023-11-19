@@ -10,7 +10,7 @@ COPY ./fast_api_requirements.txt fast_api_requirements.txt
 RUN pip install --no-cache-dir --upgrade -r fast_api_requirements.txt
 
 ENV HUGGINGFACE_TOKEN="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"
-ENV HUGGINGFACE_REPO="quyanh/qwen-14b-neurips-a100"
+ENV HUGGINGFACE_REPO="llm-efficiency-challenge/QuyAnh2005-A100-qwen-qwen-finetune"
 
 # Copy over single file server
 COPY ./main.py main.py
