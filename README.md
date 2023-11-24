@@ -15,5 +15,5 @@ The final result of our submission in the [NeurIPS LLM 2023 Competition track](h
 Datasets is available [here](https://huggingface.co/quyanh).
 
 # Our team
-Two members: Chris, Anh.
+Two members: Chris, Anh.    
 We represent Knovel Engineering Lab - a Singapore-based AI consultancy firm.
