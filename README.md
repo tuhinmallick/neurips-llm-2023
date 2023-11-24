@@ -11,8 +11,8 @@ The final result of our submission in the [NeurIPS LLM 2023 Competition track](h
 - `finetune-code`: Contain Dockerfile to finetuning automatically
 - `notebooks`: Contain jupyter notebooks to generate dataset
 
-# Dataset
-Datasets is available [here](https://huggingface.co/quyanh).
+# Training Datasets
+Training datasets are available [here](https://huggingface.co/quyanh).
 
 # Our team
 Two members: Chris, Anh.    
