@@ -9,7 +9,7 @@ WORKDIR /workspace
 COPY ./fast_api_requirements.txt fast_api_requirements.txt
 RUN pip install --no-cache-dir --upgrade -r fast_api_requirements.txt
 
-ENV HUGGINGFACE_TOKEN="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"
+ENV HUGGINGFACE_TOKEN=""
 ENV HUGGINGFACE_REPO="llm-efficiency-challenge/QuyAnh2005-A100-qwen-qwen-finetune"
 
 # Copy over single file server
