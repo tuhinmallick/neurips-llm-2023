@@ -90,8 +90,8 @@ def main():
     # training
     project = "mistral-finetune"
     base_model_name = "mistral"
-    run_name = base_model_name + "-" + project
-    output_dir = "./" + run_name
+    run_name = f"{base_model_name}-{project}"
+    output_dir = f"./{run_name}"
 
     tokenizer.pad_token = tokenizer.eos_token
 

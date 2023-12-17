@@ -91,9 +91,9 @@ def main():
     # training
     project = "qwen-finetune"
     base_model_name = "qwen"
-    run_name = base_model_name + "-" + project
-    output_dir = "./" + run_name
-    
+    run_name = f"{base_model_name}-{project}"
+    output_dir = f"./{run_name}"
+
     tokenizer.pad_token = tokenizer.eos_token
     trainer = transformers.Trainer(
         model=model,
@@ -116,7 +116,7 @@ def main():
         ),
         data_collator=transformers.DataCollatorForLanguageModeling(tokenizer, mlm=False),
     )
-    
+
     model.config.use_cache = False  # silence the warnings. Please re-enable for inference!
     trainer.train()
 

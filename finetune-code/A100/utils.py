@@ -30,7 +30,7 @@ class Concatenator(object):
             }
         else:
             result = concatenated_samples
-            self.residual = {k: [] for k in concatenated_samples.keys()}
+            self.residual = {k: [] for k in concatenated_samples}
 
         result["labels"] = result["input_ids"].copy()
 
